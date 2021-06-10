@@ -1,5 +1,5 @@
 # Analisis-Accidentes-NL
-Análisis de accidentes en el estado de nuevo león llevado acabo con PostgreSQL.
+Análisis de accidentes en el estado de Nuevo León, México llevado acabo con PostgreSQL.
 
 Para revisar las visualizaciones de este análisis, visita  <a href="https://public.tableau.com/views/AnlisisdeaccidentesenNuevoLen/AnlisisdeaccidentesenNL?:language=en-GB&:display_count=n&:origin=viz_share_link">mi viz en Tableau Public</a>
 
