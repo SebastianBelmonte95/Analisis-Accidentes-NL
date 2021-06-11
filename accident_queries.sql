@@ -97,7 +97,7 @@ DELETE FROM accidents WHERE
 -- Se limpió la base de datos y de eliminaron 5862 registros incompletos o fuera de los parámetros aceptables quedando 37568
 
 -- Exportar nueva tabla al archivo CSV
-COPY (SELECT * FROM accidents) TO 'Prueba\clean_db.csv' CSV HEADER;
+COPY (SELECT * FROM accidents) TO 'clean_db.csv' CSV HEADER;
 
 -- 1. Desarrollar y mostrar evidencia de un diagnóstico general de la base de datos
 -- La base de datos contenía un total de 5862 registros incompletos o bien con coordenadas totalmente equívocas, por ejemplo en Lima, Perú, Ciudad de México, el océano pacífico, entre otros. Se lidió con los registros no útiles y se redujo la base de datos a 37568 registros. Además de ello, en la categoría 'Color' existen muchos registros con abreviaciones, combinaciones de colores, colores por tonalidad y combinaciones de letras y números. A pesar de que es posible filtrar esos registros o bien, cambiar los valores de las celdas con valores poco usuales, únicamente se realizó una reasignación de valores a los colores más comunes y relevantes para nuestro estudio.
