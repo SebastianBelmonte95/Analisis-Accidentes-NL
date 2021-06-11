@@ -22,7 +22,7 @@ CREATE TABLE accidents(
 	_date DATE NOT NULL
 )
 
-Importing state information data
+-- Importing state information data
  COPY accidents(id,
 				latitude,
 				longitude,
@@ -43,7 +43,7 @@ Importing state information data
 				state,
 				city,
 				_date) 
- FROM 'Prueba\mty_car_accidents.csv' 
+ FROM 'mty_car_accidents.csv' 
  DELIMITER ',' 
  CSV HEADER;
 
